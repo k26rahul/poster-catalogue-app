@@ -60,6 +60,7 @@ const dec = e => {
   border: 1px solid var(--card-border);
   border-radius: 8px;
   background: var(--card-bg);
+  box-shadow: var(--card-shadow);
 }
 
 .image-wrap {
@@ -71,7 +72,7 @@ const dec = e => {
   height: 220px;
   border-radius: 6px;
   object-fit: contain;
-  background: var(--image-bg);
+  background: var(--card-image-bg);
 }
 
 .qty-overlay {
@@ -82,11 +83,13 @@ const dec = e => {
   align-items: center;
   border-radius: 12px;
   overflow: hidden;
+  box-shadow: var(--overlay-shadow);
+  transition: box-shadow 0.15s ease;
 }
 
 .qty-overlay.active {
   background: var(--accent);
-  box-shadow: 0 4px 10px var(--shadow-hover);
+  box-shadow: var(--overlay-shadow-active);
 }
 
 .qty-left {

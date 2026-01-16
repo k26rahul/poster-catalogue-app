@@ -54,7 +54,7 @@ const onTouchEnd = e => {
       />
     </div>
 
-    <h3>{{ pdf.name.replace(/_/g, ' ') }}</h3>
+    <h3>{{ pdf.readable_name }}</h3>
     <p>{{ pdf.total_posters }} posters</p>
   </div>
 </template>
@@ -70,12 +70,13 @@ const onTouchEnd = e => {
   background: var(--card-bg);
   text-align: center;
   cursor: pointer;
+  box-shadow: var(--card-shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .pdf-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--shadow-hover);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .pdf-card img {
@@ -83,7 +84,7 @@ const onTouchEnd = e => {
   height: 220px;
   border-radius: 6px;
   object-fit: contain;
-  background: var(--image-bg);
+  background: var(--card-image-bg);
 }
 
 .dots {

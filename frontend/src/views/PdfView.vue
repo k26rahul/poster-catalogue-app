@@ -1,16 +1,14 @@
 <script setup>
-import { onMounted, computed } from 'vue';
+import { onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { usePdfData } from '@/composables/usePdfData';
 import PosterCard from '@/components/PosterCard.vue';
 
-const route = useRoute();
 const { pdfData, isLoading, error, fetchPdf } = usePdfData();
 
-const pdfName = computed(() => route.params.pdfName);
-
 onMounted(() => {
-  if (pdfName.value) fetchPdf(pdfName.value);
+  const pdfName = useRoute().params.pdfName;
+  if (pdfName) fetchPdf(pdfName);
 });
 </script>
 
@@ -20,15 +18,11 @@ onMounted(() => {
   <section v-else-if="error">Error: {{ error }}</section>
 
   <section v-else-if="pdfData">
-    <h2>{{ pdfData.name.replace(/_/g, ' ') }}</h2>
+    <h2>{{ pdfData.readable_name }}</h2>
     <p>{{ pdfData.total_posters }} posters</p>
 
     <div class="posters-grid">
-      <PosterCard
-        v-for="poster in pdfData.posters"
-        :key="poster.page_no + (poster.code || '')"
-        :poster="poster"
-      />
+      <PosterCard v-for="poster in pdfData.posters" :key="poster.index" :poster="poster" />
     </div>
   </section>
 </template>
@@ -48,7 +42,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 12px;
-  margin-top: 12px;
 }
 
 p {

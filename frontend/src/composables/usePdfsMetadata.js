@@ -12,6 +12,7 @@ async function fetchMetadata() {
   if (fetchPromise) return fetchPromise;
 
   isLoading.value = true;
+  error.value = null;
 
   fetchPromise = (async () => {
     try {
