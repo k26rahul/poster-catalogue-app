@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const props = defineProps({
@@ -13,6 +13,22 @@ const router = useRouter();
 const current = ref(0);
 
 const posters = props.pdf.posters_sample;
+const currentPoster = computed(() => posters[current.value]);
+
+let intervalId;
+onMounted(() => {
+  if (posters.length > 1) {
+    intervalId = setInterval(() => {
+      current.value = (current.value + 1) % posters.length;
+    }, 2000);
+  }
+});
+
+onUnmounted(() => {
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+});
 
 const goToPdf = () => {
   router.push({
@@ -35,22 +51,39 @@ const onTouchEnd = e => {
 
   if (dx < 0 && current.value < posters.length - 1) {
     current.value++;
+    clearInterval(intervalId);
   } else if (dx > 0 && current.value > 0) {
     current.value--;
+    clearInterval(intervalId);
   }
+};
+
+const onDotClick = i => {
+  current.value = i;
+  clearInterval(intervalId);
 };
 </script>
 
 <template>
-  <div class="pdf-card" @click="goToPdf" @touchstart="onTouchStart" @touchend="onTouchEnd">
-    <img :src="`/poster-images/${posters[current].image_file}`" :alt="pdf.id" />
+  <div
+    class="pdf-card"
+    @click="goToPdf"
+    @touchstart="onTouchStart"
+    @touchend="onTouchEnd"
+  >
+    <img
+      :src="`/poster-images/${currentPoster.image_file}`"
+      :alt="currentPoster.id"
+      :width="currentPoster.image_size[0]"
+      :height="currentPoster.image_size[1]"
+    />
 
     <div class="dots">
       <span
         v-for="(_, i) in posters"
         :key="i"
         :class="{ active: i === current }"
-        @click.stop="current = i"
+        @click.stop="onDotClick(i)"
       />
     </div>
 
@@ -71,7 +104,9 @@ const onTouchEnd = e => {
   text-align: center;
   cursor: pointer;
   box-shadow: var(--card-shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 .pdf-card:hover {
@@ -81,7 +116,7 @@ const onTouchEnd = e => {
 
 .pdf-card img {
   width: 100%;
-  height: 220px;
+  height: 240px;
   border-radius: 6px;
   object-fit: contain;
   background: var(--card-image-bg);

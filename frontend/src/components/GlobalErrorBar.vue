@@ -1,6 +1,11 @@
+<script setup>
+import { globalStore } from '@/stores/globalStore';
+const { error } = globalStore;
+</script>
+
 <template>
-  <div class="error-bar">
-    <p>Something went wrong. Please reload the page.</p>
+  <div v-if="error" class="error-bar">
+    <p>{{ error }}</p>
   </div>
 </template>
 

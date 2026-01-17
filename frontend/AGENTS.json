@@ -83,14 +83,14 @@
               {
                 "key": "posters",
                 "type": "array",
-                "condition": "Present when generating the detailed JSON for a specific PDF.",
+                "condition": "Populated (empty otherwise) only when generating the detailed JSON for a specific PDF.",
                 "content_type": "Poster Object",
                 "description": "A list containing every single poster extracted from this PDF."
               },
               {
                 "key": "posters_sample",
                 "type": "array",
-                "condition": "Present when generating the summary metadata JSON to keep the file size light.",
+                "condition": "Populated (empty otherwise) only when generating the summary metadata JSON to keep the file size light.",
                 "content_type": "Poster Object",
                 "description": "A small subset (up to 5) of randomly selected posters."
               }

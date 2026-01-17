@@ -1,32 +1,20 @@
 <script setup>
-import { computed, onMounted } from 'vue';
+import { onMounted } from 'vue';
 import { pdfStore } from '../stores';
 import PdfCard from '../components/PdfCard.vue';
 
-const { state, fetchMetadata } = pdfStore;
+const { fetchMetadata, categories, pdfs } = pdfStore;
 
 onMounted(fetchMetadata);
-
-const groupedByCategory = computed(() => {
-  if (!state.metadata) return [];
-
-  const { pdfs, categories } = state.metadata;
-
-  return categories.map(cat => ({
-    name: cat.name,
-    description: cat.description,
-    pdfs: pdfs.filter(pdf => pdf.category === cat.name),
-  }));
-});
 </script>
 
 <template>
-  <section v-for="category in groupedByCategory" :key="category.name">
+  <section v-for="category in categories.values()" :key="category.name">
     <h2>{{ category.name }}</h2>
     <p>{{ category.description }}</p>
 
     <div class="pdf-grid">
-      <PdfCard v-for="pdf in category.pdfs" :key="pdf.name" :pdf="pdf" />
+      <PdfCard v-for="pdfName in category.pdfs" :key="pdfName" :pdf="pdfs.get(pdfName)" />
     </div>
   </section>
 </template>
@@ -38,8 +26,9 @@ section {
 
 .pdf-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px;
+  grid-auto-flow: dense;
 }
 
 h2 {

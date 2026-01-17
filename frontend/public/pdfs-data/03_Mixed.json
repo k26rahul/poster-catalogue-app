@@ -11,7 +11,11 @@
       "index": 1,
       "code": "27001",
       "id": "03_Mixed--i1--27001",
-      "image_file": "03_Mixed--i1--27001--63ff1.jpg"
+      "image_file": "03_Mixed--i1--27001--63ff1.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -19,7 +23,11 @@
       "index": 2,
       "code": "27002",
       "id": "03_Mixed--i2--27002",
-      "image_file": "03_Mixed--i2--27002--c5348.jpg"
+      "image_file": "03_Mixed--i2--27002--c5348.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -27,7 +35,11 @@
       "index": 3,
       "code": "27003",
       "id": "03_Mixed--i3--27003",
-      "image_file": "03_Mixed--i3--27003--35864.jpg"
+      "image_file": "03_Mixed--i3--27003--35864.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -35,7 +47,11 @@
       "index": 4,
       "code": "27004",
       "id": "03_Mixed--i4--27004",
-      "image_file": "03_Mixed--i4--27004--070d2.jpg"
+      "image_file": "03_Mixed--i4--27004--070d2.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -43,7 +59,11 @@
       "index": 5,
       "code": "27005",
       "id": "03_Mixed--i5--27005",
-      "image_file": "03_Mixed--i5--27005--a8050.jpg"
+      "image_file": "03_Mixed--i5--27005--a8050.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -51,7 +71,11 @@
       "index": 6,
       "code": "27006",
       "id": "03_Mixed--i6--27006",
-      "image_file": "03_Mixed--i6--27006--1e17e.jpg"
+      "image_file": "03_Mixed--i6--27006--1e17e.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -59,7 +83,11 @@
       "index": 7,
       "code": "27007",
       "id": "03_Mixed--i7--27007",
-      "image_file": "03_Mixed--i7--27007--85bbe.jpg"
+      "image_file": "03_Mixed--i7--27007--85bbe.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -67,7 +95,11 @@
       "index": 8,
       "code": "27008",
       "id": "03_Mixed--i8--27008",
-      "image_file": "03_Mixed--i8--27008--eb8c6.jpg"
+      "image_file": "03_Mixed--i8--27008--eb8c6.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -75,7 +107,11 @@
       "index": 9,
       "code": "27009",
       "id": "03_Mixed--i9--27009",
-      "image_file": "03_Mixed--i9--27009--39a30.jpg"
+      "image_file": "03_Mixed--i9--27009--39a30.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -83,7 +119,11 @@
       "index": 10,
       "code": "27010",
       "id": "03_Mixed--i10--27010",
-      "image_file": "03_Mixed--i10--27010--ba956.jpg"
+      "image_file": "03_Mixed--i10--27010--ba956.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -91,7 +131,11 @@
       "index": 11,
       "code": "27011",
       "id": "03_Mixed--i11--27011",
-      "image_file": "03_Mixed--i11--27011--ad0c9.jpg"
+      "image_file": "03_Mixed--i11--27011--ad0c9.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -99,7 +143,11 @@
       "index": 12,
       "code": "27012",
       "id": "03_Mixed--i12--27012",
-      "image_file": "03_Mixed--i12--27012--097b3.jpg"
+      "image_file": "03_Mixed--i12--27012--097b3.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -107,7 +155,11 @@
       "index": 13,
       "code": "27013",
       "id": "03_Mixed--i13--27013",
-      "image_file": "03_Mixed--i13--27013--9c968.jpg"
+      "image_file": "03_Mixed--i13--27013--9c968.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -115,7 +167,11 @@
       "index": 14,
       "code": "27014",
       "id": "03_Mixed--i14--27014",
-      "image_file": "03_Mixed--i14--27014--bcef8.jpg"
+      "image_file": "03_Mixed--i14--27014--bcef8.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -123,7 +179,11 @@
       "index": 15,
       "code": "27015",
       "id": "03_Mixed--i15--27015",
-      "image_file": "03_Mixed--i15--27015--9002e.jpg"
+      "image_file": "03_Mixed--i15--27015--9002e.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -131,7 +191,11 @@
       "index": 16,
       "code": "27016",
       "id": "03_Mixed--i16--27016",
-      "image_file": "03_Mixed--i16--27016--f9d02.jpg"
+      "image_file": "03_Mixed--i16--27016--f9d02.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -139,7 +203,11 @@
       "index": 17,
       "code": "27017",
       "id": "03_Mixed--i17--27017",
-      "image_file": "03_Mixed--i17--27017--71cee.jpg"
+      "image_file": "03_Mixed--i17--27017--71cee.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -147,7 +215,11 @@
       "index": 18,
       "code": "27018",
       "id": "03_Mixed--i18--27018",
-      "image_file": "03_Mixed--i18--27018--2ad01.jpg"
+      "image_file": "03_Mixed--i18--27018--2ad01.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -155,7 +227,11 @@
       "index": 19,
       "code": "27019",
       "id": "03_Mixed--i19--27019",
-      "image_file": "03_Mixed--i19--27019--b512e.jpg"
+      "image_file": "03_Mixed--i19--27019--b512e.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -163,7 +239,11 @@
       "index": 20,
       "code": "27020",
       "id": "03_Mixed--i20--27020",
-      "image_file": "03_Mixed--i20--27020--7e908.jpg"
+      "image_file": "03_Mixed--i20--27020--7e908.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -171,7 +251,11 @@
       "index": 21,
       "code": "27021",
       "id": "03_Mixed--i21--27021",
-      "image_file": "03_Mixed--i21--27021--dff3a.jpg"
+      "image_file": "03_Mixed--i21--27021--dff3a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -179,7 +263,11 @@
       "index": 22,
       "code": "27022",
       "id": "03_Mixed--i22--27022",
-      "image_file": "03_Mixed--i22--27022--8a345.jpg"
+      "image_file": "03_Mixed--i22--27022--8a345.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -187,7 +275,11 @@
       "index": 23,
       "code": "27023",
       "id": "03_Mixed--i23--27023",
-      "image_file": "03_Mixed--i23--27023--ed1e5.jpg"
+      "image_file": "03_Mixed--i23--27023--ed1e5.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -195,7 +287,11 @@
       "index": 24,
       "code": "27088",
       "id": "03_Mixed--i24--27088",
-      "image_file": "03_Mixed--i24--27088--2ff1a.jpg"
+      "image_file": "03_Mixed--i24--27088--2ff1a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -203,7 +299,11 @@
       "index": 25,
       "code": "27024",
       "id": "03_Mixed--i25--27024",
-      "image_file": "03_Mixed--i25--27024--a39cd.jpg"
+      "image_file": "03_Mixed--i25--27024--a39cd.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -211,7 +311,11 @@
       "index": 26,
       "code": "27025",
       "id": "03_Mixed--i26--27025",
-      "image_file": "03_Mixed--i26--27025--b8742.jpg"
+      "image_file": "03_Mixed--i26--27025--b8742.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -219,7 +323,11 @@
       "index": 27,
       "code": "27027",
       "id": "03_Mixed--i27--27027",
-      "image_file": "03_Mixed--i27--27027--d099f.jpg"
+      "image_file": "03_Mixed--i27--27027--d099f.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -227,7 +335,11 @@
       "index": 28,
       "code": "27028",
       "id": "03_Mixed--i28--27028",
-      "image_file": "03_Mixed--i28--27028--d1e30.jpg"
+      "image_file": "03_Mixed--i28--27028--d1e30.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -235,7 +347,11 @@
       "index": 29,
       "code": "27029",
       "id": "03_Mixed--i29--27029",
-      "image_file": "03_Mixed--i29--27029--1c31f.jpg"
+      "image_file": "03_Mixed--i29--27029--1c31f.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -243,7 +359,11 @@
       "index": 30,
       "code": "27031",
       "id": "03_Mixed--i30--27031",
-      "image_file": "03_Mixed--i30--27031--4cc59.jpg"
+      "image_file": "03_Mixed--i30--27031--4cc59.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -251,7 +371,11 @@
       "index": 31,
       "code": "27032",
       "id": "03_Mixed--i31--27032",
-      "image_file": "03_Mixed--i31--27032--29b23.jpg"
+      "image_file": "03_Mixed--i31--27032--29b23.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -259,7 +383,11 @@
       "index": 32,
       "code": "27033",
       "id": "03_Mixed--i32--27033",
-      "image_file": "03_Mixed--i32--27033--1b87b.jpg"
+      "image_file": "03_Mixed--i32--27033--1b87b.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -267,7 +395,11 @@
       "index": 33,
       "code": "27034",
       "id": "03_Mixed--i33--27034",
-      "image_file": "03_Mixed--i33--27034--37412.jpg"
+      "image_file": "03_Mixed--i33--27034--37412.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -275,7 +407,11 @@
       "index": 34,
       "code": "27035",
       "id": "03_Mixed--i34--27035",
-      "image_file": "03_Mixed--i34--27035--2dcc5.jpg"
+      "image_file": "03_Mixed--i34--27035--2dcc5.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -283,7 +419,11 @@
       "index": 35,
       "code": "27036",
       "id": "03_Mixed--i35--27036",
-      "image_file": "03_Mixed--i35--27036--b887a.jpg"
+      "image_file": "03_Mixed--i35--27036--b887a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -291,7 +431,11 @@
       "index": 36,
       "code": "27037",
       "id": "03_Mixed--i36--27037",
-      "image_file": "03_Mixed--i36--27037--b0ba9.jpg"
+      "image_file": "03_Mixed--i36--27037--b0ba9.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -299,7 +443,11 @@
       "index": 37,
       "code": "27038",
       "id": "03_Mixed--i37--27038",
-      "image_file": "03_Mixed--i37--27038--ed3da.jpg"
+      "image_file": "03_Mixed--i37--27038--ed3da.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -307,7 +455,11 @@
       "index": 38,
       "code": "27039",
       "id": "03_Mixed--i38--27039",
-      "image_file": "03_Mixed--i38--27039--d4934.jpg"
+      "image_file": "03_Mixed--i38--27039--d4934.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -315,7 +467,11 @@
       "index": 39,
       "code": "27041",
       "id": "03_Mixed--i39--27041",
-      "image_file": "03_Mixed--i39--27041--c9e21.jpg"
+      "image_file": "03_Mixed--i39--27041--c9e21.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -323,7 +479,11 @@
       "index": 40,
       "code": "27042",
       "id": "03_Mixed--i40--27042",
-      "image_file": "03_Mixed--i40--27042--7a2b2.jpg"
+      "image_file": "03_Mixed--i40--27042--7a2b2.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -331,7 +491,11 @@
       "index": 41,
       "code": "27043",
       "id": "03_Mixed--i41--27043",
-      "image_file": "03_Mixed--i41--27043--b9b63.jpg"
+      "image_file": "03_Mixed--i41--27043--b9b63.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -339,7 +503,11 @@
       "index": 42,
       "code": "27044",
       "id": "03_Mixed--i42--27044",
-      "image_file": "03_Mixed--i42--27044--3b11b.jpg"
+      "image_file": "03_Mixed--i42--27044--3b11b.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -347,7 +515,11 @@
       "index": 43,
       "code": "27045",
       "id": "03_Mixed--i43--27045",
-      "image_file": "03_Mixed--i43--27045--32750.jpg"
+      "image_file": "03_Mixed--i43--27045--32750.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -355,7 +527,11 @@
       "index": 44,
       "code": "27046",
       "id": "03_Mixed--i44--27046",
-      "image_file": "03_Mixed--i44--27046--1599b.jpg"
+      "image_file": "03_Mixed--i44--27046--1599b.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -363,7 +539,11 @@
       "index": 45,
       "code": "27047",
       "id": "03_Mixed--i45--27047",
-      "image_file": "03_Mixed--i45--27047--29216.jpg"
+      "image_file": "03_Mixed--i45--27047--29216.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -371,7 +551,11 @@
       "index": 46,
       "code": "27089",
       "id": "03_Mixed--i46--27089",
-      "image_file": "03_Mixed--i46--27089--3e62e.jpg"
+      "image_file": "03_Mixed--i46--27089--3e62e.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -379,7 +563,11 @@
       "index": 47,
       "code": "27090",
       "id": "03_Mixed--i47--27090",
-      "image_file": "03_Mixed--i47--27090--3cbbc.jpg"
+      "image_file": "03_Mixed--i47--27090--3cbbc.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -387,7 +575,11 @@
       "index": 48,
       "code": "27048",
       "id": "03_Mixed--i48--27048",
-      "image_file": "03_Mixed--i48--27048--cc254.jpg"
+      "image_file": "03_Mixed--i48--27048--cc254.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -395,7 +587,11 @@
       "index": 49,
       "code": "27049",
       "id": "03_Mixed--i49--27049",
-      "image_file": "03_Mixed--i49--27049--ab390.jpg"
+      "image_file": "03_Mixed--i49--27049--ab390.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -403,7 +599,11 @@
       "index": 50,
       "code": "27050",
       "id": "03_Mixed--i50--27050",
-      "image_file": "03_Mixed--i50--27050--df978.jpg"
+      "image_file": "03_Mixed--i50--27050--df978.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -411,7 +611,11 @@
       "index": 51,
       "code": "27051",
       "id": "03_Mixed--i51--27051",
-      "image_file": "03_Mixed--i51--27051--f459f.jpg"
+      "image_file": "03_Mixed--i51--27051--f459f.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -419,7 +623,11 @@
       "index": 52,
       "code": "27053",
       "id": "03_Mixed--i52--27053",
-      "image_file": "03_Mixed--i52--27053--14c61.jpg"
+      "image_file": "03_Mixed--i52--27053--14c61.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -427,7 +635,11 @@
       "index": 53,
       "code": "27054",
       "id": "03_Mixed--i53--27054",
-      "image_file": "03_Mixed--i53--27054--92075.jpg"
+      "image_file": "03_Mixed--i53--27054--92075.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -435,7 +647,11 @@
       "index": 54,
       "code": "27052",
       "id": "03_Mixed--i54--27052",
-      "image_file": "03_Mixed--i54--27052--ce20a.jpg"
+      "image_file": "03_Mixed--i54--27052--ce20a.jpg",
+      "image_size": [
+        200,
+        301
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -443,7 +659,11 @@
       "index": 55,
       "code": "27055",
       "id": "03_Mixed--i55--27055",
-      "image_file": "03_Mixed--i55--27055--05b22.jpg"
+      "image_file": "03_Mixed--i55--27055--05b22.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -451,7 +671,11 @@
       "index": 56,
       "code": "27056",
       "id": "03_Mixed--i56--27056",
-      "image_file": "03_Mixed--i56--27056--4e216.jpg"
+      "image_file": "03_Mixed--i56--27056--4e216.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -459,7 +683,11 @@
       "index": 57,
       "code": "27057",
       "id": "03_Mixed--i57--27057",
-      "image_file": "03_Mixed--i57--27057--6b2c0.jpg"
+      "image_file": "03_Mixed--i57--27057--6b2c0.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -467,7 +695,11 @@
       "index": 58,
       "code": "27058",
       "id": "03_Mixed--i58--27058",
-      "image_file": "03_Mixed--i58--27058--8898a.jpg"
+      "image_file": "03_Mixed--i58--27058--8898a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -475,7 +707,11 @@
       "index": 59,
       "code": "27060",
       "id": "03_Mixed--i59--27060",
-      "image_file": "03_Mixed--i59--27060--e69aa.jpg"
+      "image_file": "03_Mixed--i59--27060--e69aa.jpg",
+      "image_size": [
+        200,
+        301
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -483,7 +719,11 @@
       "index": 60,
       "code": "27061",
       "id": "03_Mixed--i60--27061",
-      "image_file": "03_Mixed--i60--27061--c0ce7.jpg"
+      "image_file": "03_Mixed--i60--27061--c0ce7.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -491,7 +731,11 @@
       "index": 61,
       "code": "27062",
       "id": "03_Mixed--i61--27062",
-      "image_file": "03_Mixed--i61--27062--d6319.jpg"
+      "image_file": "03_Mixed--i61--27062--d6319.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -499,7 +743,11 @@
       "index": 62,
       "code": "27063",
       "id": "03_Mixed--i62--27063",
-      "image_file": "03_Mixed--i62--27063--24580.jpg"
+      "image_file": "03_Mixed--i62--27063--24580.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -507,7 +755,11 @@
       "index": 63,
       "code": "27064",
       "id": "03_Mixed--i63--27064",
-      "image_file": "03_Mixed--i63--27064--d4cfa.jpg"
+      "image_file": "03_Mixed--i63--27064--d4cfa.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -515,7 +767,11 @@
       "index": 64,
       "code": "27065",
       "id": "03_Mixed--i64--27065",
-      "image_file": "03_Mixed--i64--27065--2a059.jpg"
+      "image_file": "03_Mixed--i64--27065--2a059.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -523,7 +779,11 @@
       "index": 65,
       "code": "27066",
       "id": "03_Mixed--i65--27066",
-      "image_file": "03_Mixed--i65--27066--80724.jpg"
+      "image_file": "03_Mixed--i65--27066--80724.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -531,7 +791,11 @@
       "index": 66,
       "code": "27067",
       "id": "03_Mixed--i66--27067",
-      "image_file": "03_Mixed--i66--27067--785d0.jpg"
+      "image_file": "03_Mixed--i66--27067--785d0.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -539,7 +803,11 @@
       "index": 67,
       "code": "27068",
       "id": "03_Mixed--i67--27068",
-      "image_file": "03_Mixed--i67--27068--a9024.jpg"
+      "image_file": "03_Mixed--i67--27068--a9024.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -547,7 +815,11 @@
       "index": 68,
       "code": "27069",
       "id": "03_Mixed--i68--27069",
-      "image_file": "03_Mixed--i68--27069--f243c.jpg"
+      "image_file": "03_Mixed--i68--27069--f243c.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -555,7 +827,11 @@
       "index": 69,
       "code": "27070",
       "id": "03_Mixed--i69--27070",
-      "image_file": "03_Mixed--i69--27070--877e7.jpg"
+      "image_file": "03_Mixed--i69--27070--877e7.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -563,7 +839,11 @@
       "index": 70,
       "code": "27071",
       "id": "03_Mixed--i70--27071",
-      "image_file": "03_Mixed--i70--27071--146d0.jpg"
+      "image_file": "03_Mixed--i70--27071--146d0.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -571,7 +851,11 @@
       "index": 71,
       "code": "27072",
       "id": "03_Mixed--i71--27072",
-      "image_file": "03_Mixed--i71--27072--fd0d7.jpg"
+      "image_file": "03_Mixed--i71--27072--fd0d7.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -579,7 +863,11 @@
       "index": 72,
       "code": "27073",
       "id": "03_Mixed--i72--27073",
-      "image_file": "03_Mixed--i72--27073--8c59e.jpg"
+      "image_file": "03_Mixed--i72--27073--8c59e.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -587,7 +875,11 @@
       "index": 73,
       "code": "27074",
       "id": "03_Mixed--i73--27074",
-      "image_file": "03_Mixed--i73--27074--e8651.jpg"
+      "image_file": "03_Mixed--i73--27074--e8651.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -595,7 +887,11 @@
       "index": 74,
       "code": "27075",
       "id": "03_Mixed--i74--27075",
-      "image_file": "03_Mixed--i74--27075--88478.jpg"
+      "image_file": "03_Mixed--i74--27075--88478.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -603,7 +899,11 @@
       "index": 75,
       "code": "27076",
       "id": "03_Mixed--i75--27076",
-      "image_file": "03_Mixed--i75--27076--25a53.jpg"
+      "image_file": "03_Mixed--i75--27076--25a53.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -611,7 +911,11 @@
       "index": 76,
       "code": "27077",
       "id": "03_Mixed--i76--27077",
-      "image_file": "03_Mixed--i76--27077--d803d.jpg"
+      "image_file": "03_Mixed--i76--27077--d803d.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -619,7 +923,11 @@
       "index": 77,
       "code": "27078",
       "id": "03_Mixed--i77--27078",
-      "image_file": "03_Mixed--i77--27078--28891.jpg"
+      "image_file": "03_Mixed--i77--27078--28891.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -627,7 +935,11 @@
       "index": 78,
       "code": "27079",
       "id": "03_Mixed--i78--27079",
-      "image_file": "03_Mixed--i78--27079--7d10a.jpg"
+      "image_file": "03_Mixed--i78--27079--7d10a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -635,7 +947,11 @@
       "index": 79,
       "code": "27080",
       "id": "03_Mixed--i79--27080",
-      "image_file": "03_Mixed--i79--27080--67241.jpg"
+      "image_file": "03_Mixed--i79--27080--67241.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -643,7 +959,11 @@
       "index": 80,
       "code": "27081",
       "id": "03_Mixed--i80--27081",
-      "image_file": "03_Mixed--i80--27081--fbb5a.jpg"
+      "image_file": "03_Mixed--i80--27081--fbb5a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -651,7 +971,11 @@
       "index": 81,
       "code": "27082",
       "id": "03_Mixed--i81--27082",
-      "image_file": "03_Mixed--i81--27082--e797c.jpg"
+      "image_file": "03_Mixed--i81--27082--e797c.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -659,7 +983,11 @@
       "index": 82,
       "code": "27083",
       "id": "03_Mixed--i82--27083",
-      "image_file": "03_Mixed--i82--27083--95ddb.jpg"
+      "image_file": "03_Mixed--i82--27083--95ddb.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -667,7 +995,11 @@
       "index": 83,
       "code": "27084",
       "id": "03_Mixed--i83--27084",
-      "image_file": "03_Mixed--i83--27084--09693.jpg"
+      "image_file": "03_Mixed--i83--27084--09693.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -675,7 +1007,11 @@
       "index": 84,
       "code": "27085",
       "id": "03_Mixed--i84--27085",
-      "image_file": "03_Mixed--i84--27085--5938a.jpg"
+      "image_file": "03_Mixed--i84--27085--5938a.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -683,7 +1019,11 @@
       "index": 85,
       "code": "27086",
       "id": "03_Mixed--i85--27086",
-      "image_file": "03_Mixed--i85--27086--24730.jpg"
+      "image_file": "03_Mixed--i85--27086--24730.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -691,7 +1031,11 @@
       "index": 86,
       "code": "27087",
       "id": "03_Mixed--i86--27087",
-      "image_file": "03_Mixed--i86--27087--713ee.jpg"
+      "image_file": "03_Mixed--i86--27087--713ee.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     },
     {
       "pdf_name": "03_Mixed",
@@ -699,7 +1043,12 @@
       "index": 87,
       "code": "27091",
       "id": "03_Mixed--i87--27091",
-      "image_file": "03_Mixed--i87--27091--2dee5.jpg"
+      "image_file": "03_Mixed--i87--27091--2dee5.jpg",
+      "image_size": [
+        301,
+        200
+      ]
     }
-  ]
+  ],
+  "posters_sample": []
 }

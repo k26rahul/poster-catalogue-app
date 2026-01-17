@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue';
-import { cartStore } from '@/stores/cart';
+import { cartStore } from '@/stores/cartStore';
 
 const props = defineProps({
   poster: {
@@ -14,15 +14,14 @@ const { cart, addPoster, removePoster } = cartStore;
 const pdfName = computed(() => props.poster.pdf_name);
 
 const qty = computed(() => {
-  const postersInPdf = cart[pdfName.value] || [];
-  return postersInPdf.filter(p => p.posterId === props.poster.id).length;
+  return cart.get(pdfName.value)?.get(props.poster.id)?.qty || 0;
 });
 
 const isActive = computed(() => qty.value >= 1);
 
 const inc = e => {
   e.stopPropagation();
-  addPoster(pdfName.value, props.poster);
+  addPoster(pdfName.value, props.poster.id);
 };
 
 const dec = e => {
@@ -35,17 +34,15 @@ const dec = e => {
 
 <template>
   <div class="poster-card">
-    <div class="image-wrap">
-      <img :src="`/poster-images/${poster.image_file}`" :alt="poster.code" />
+    <img :src="`/poster-images/${poster.image_file}`" :alt="poster.id" />
 
-      <div class="qty-overlay" :class="{ active: isActive }">
-        <div class="qty-left" :class="{ visible: isActive }">
-          <button @click="dec">−</button>
-          <span>{{ qty }}</span>
-        </div>
-
-        <button class="qty-plus" @click="inc">+</button>
+    <div class="qty-overlay" :class="{ active: isActive }">
+      <div class="qty-left" :class="{ visible: isActive }">
+        <button @click="dec">−</button>
+        <span>{{ qty }}</span>
       </div>
+
+      <button class="qty-plus" @click="inc">+</button>
     </div>
 
     <div class="title">
@@ -56,6 +53,7 @@ const dec = e => {
 
 <style scoped>
 .poster-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -65,13 +63,8 @@ const dec = e => {
   box-shadow: var(--card-shadow);
 }
 
-.image-wrap {
-  position: relative;
-}
-
-.image-wrap img {
+img {
   width: 100%;
-  height: 220px;
   border-radius: 6px;
   object-fit: contain;
   background: var(--card-image-bg);

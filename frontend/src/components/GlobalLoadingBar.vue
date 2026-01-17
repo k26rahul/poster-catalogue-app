@@ -1,5 +1,10 @@
+<script setup>
+import { globalStore } from '@/stores/globalStore';
+const { isLoading } = globalStore;
+</script>
+
 <template>
-  <div class="loading-bar-container">
+  <div v-if="isLoading" class="loading-bar-container">
     <div class="loading-bar"></div>
   </div>
 </template>

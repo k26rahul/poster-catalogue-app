@@ -11,7 +11,11 @@
       "index": 1,
       "code": "R-14001",
       "id": "46_Ram_Darbar--i1--R-14001",
-      "image_file": "46_Ram_Darbar--i1--R-14001--908db.jpg"
+      "image_file": "46_Ram_Darbar--i1--R-14001--908db.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -19,7 +23,11 @@
       "index": 2,
       "code": "R-14002",
       "id": "46_Ram_Darbar--i2--R-14002",
-      "image_file": "46_Ram_Darbar--i2--R-14002--92e0a.jpg"
+      "image_file": "46_Ram_Darbar--i2--R-14002--92e0a.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -27,7 +35,11 @@
       "index": 3,
       "code": "R-14003",
       "id": "46_Ram_Darbar--i3--R-14003",
-      "image_file": "46_Ram_Darbar--i3--R-14003--f216c.jpg"
+      "image_file": "46_Ram_Darbar--i3--R-14003--f216c.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -35,7 +47,11 @@
       "index": 4,
       "code": "R-14004",
       "id": "46_Ram_Darbar--i4--R-14004",
-      "image_file": "46_Ram_Darbar--i4--R-14004--2ddc5.jpg"
+      "image_file": "46_Ram_Darbar--i4--R-14004--2ddc5.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -43,7 +59,11 @@
       "index": 5,
       "code": "R-14005",
       "id": "46_Ram_Darbar--i5--R-14005",
-      "image_file": "46_Ram_Darbar--i5--R-14005--3b6b8.jpg"
+      "image_file": "46_Ram_Darbar--i5--R-14005--3b6b8.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -51,7 +71,11 @@
       "index": 6,
       "code": "R-14006",
       "id": "46_Ram_Darbar--i6--R-14006",
-      "image_file": "46_Ram_Darbar--i6--R-14006--0154b.jpg"
+      "image_file": "46_Ram_Darbar--i6--R-14006--0154b.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -59,7 +83,11 @@
       "index": 7,
       "code": "R-14007",
       "id": "46_Ram_Darbar--i7--R-14007",
-      "image_file": "46_Ram_Darbar--i7--R-14007--5eb16.jpg"
+      "image_file": "46_Ram_Darbar--i7--R-14007--5eb16.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -67,7 +95,11 @@
       "index": 8,
       "code": "R-14008",
       "id": "46_Ram_Darbar--i8--R-14008",
-      "image_file": "46_Ram_Darbar--i8--R-14008--ef5fc.jpg"
+      "image_file": "46_Ram_Darbar--i8--R-14008--ef5fc.jpg",
+      "image_size": [
+        354,
+        531
+      ]
     },
     {
       "pdf_name": "46_Ram_Darbar",
@@ -75,7 +107,12 @@
       "index": 9,
       "code": "R-14009",
       "id": "46_Ram_Darbar--i9--R-14009",
-      "image_file": "46_Ram_Darbar--i9--R-14009--9fc7f.jpg"
+      "image_file": "46_Ram_Darbar--i9--R-14009--9fc7f.jpg",
+      "image_size": [
+        600,
+        400
+      ]
     }
-  ]
+  ],
+  "posters_sample": []
 }

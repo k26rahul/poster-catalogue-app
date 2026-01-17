@@ -1,4 +1,4 @@
-import { pdfStore } from './pdf';
-import { cartStore } from './cart';
+import { pdfStore } from './pdfStore';
+import { cartStore } from './cartStore';
 
 export { pdfStore, cartStore };
