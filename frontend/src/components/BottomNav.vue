@@ -19,6 +19,11 @@ import { Icon } from '@iconify/vue';
       <Icon icon="mdi:history" />
       <span>History</span>
     </RouterLink>
+
+    <RouterLink to="/settings" class="nav-item">
+      <Icon icon="mdi:cog-outline" />
+      <span>Settings</span>
+    </RouterLink>
   </nav>
 </template>
 

@@ -1,0 +1,188 @@
+{
+  "system_architecture": {
+    "title": "Data Architecture & Schemas",
+    "sections": {
+      "core_entities": {
+        "description": "Definitions of the fundamental data objects used throughout the application.",
+        "definitions": {
+          "poster_object": {
+            "fields": [
+              {
+                "key": "pdf_name",
+                "type": "string",
+                "description": "The name of the parent PDF this poster belongs to. Used to link the poster back to its source container."
+              },
+              {
+                "key": "page_no",
+                "type": "integer",
+                "description": "The specific page number in the original PDF document where this poster was found."
+              },
+              {
+                "key": "index",
+                "type": "integer",
+                "description": "A running counter indicating the order of extraction within that specific PDF (e.g., the 1st, 2nd, or 10th poster found in that file)."
+              },
+              {
+                "key": "code",
+                "type": "string",
+                "description": "The extracted product code or text label found near the image. Special characters are replaced with underscores (e.g., 25284 or A_101)."
+              },
+              {
+                "key": "id",
+                "type": "string",
+                "description": "A unique composite string identifying this specific poster instance. Format: [pdf_name]--i[index]--[code]."
+              },
+              {
+                "key": "image_file",
+                "type": "string",
+                "description": "The filename of the generated JPEG image saved to the disk. It consists of the id plus a hash of the image bytes for uniqueness (e.g., ...--a1b2c.jpg)."
+              }
+            ]
+          },
+          "category_object": {
+            "fields": [
+              {
+                "key": "name",
+                "type": "string",
+                "description": "Unique display name (e.g., 'Radha Krishna')"
+              },
+              {
+                "key": "description",
+                "type": "string",
+                "description": "Localized description explaining the spiritual or aesthetic significance of the category"
+              }
+            ]
+          },
+          "pdf_object": {
+            "fields": [
+              {
+                "key": "path",
+                "type": "string",
+                "description": "The relative file path to the source PDF file (e.g., multi-per-page/01_Radha_Krishna.pdf)."
+              },
+              {
+                "key": "name",
+                "type": "string",
+                "description": "The filename stem without the extension. This acts as the unique identifier for the PDF file within the system (e.g., 01_Radha_Krishna)."
+              },
+              {
+                "key": "readable_name",
+                "type": "string",
+                "description": "A human-friendly version of the name where underscores are replaced with spaces (e.g., 01 Radha Krishna)."
+              },
+              {
+                "key": "category",
+                "type": "string",
+                "description": "The category assigned to this PDF via the configuration registry (e.g., 'Radha Krishna', 'Modern', 'Nature')."
+              },
+              {
+                "key": "total_posters",
+                "type": "integer",
+                "description": "The total count of valid posters extracted from this specific PDF."
+              },
+              {
+                "key": "posters",
+                "type": "array",
+                "condition": "Present when generating the detailed JSON for a specific PDF.",
+                "content_type": "Poster Object",
+                "description": "A list containing every single poster extracted from this PDF."
+              },
+              {
+                "key": "posters_sample",
+                "type": "array",
+                "condition": "Present when generating the summary metadata JSON to keep the file size light.",
+                "content_type": "Poster Object",
+                "description": "A small subset (up to 5) of randomly selected posters."
+              }
+            ]
+          }
+        }
+      },
+      "file_schemas": {
+        "files": [
+          {
+            "type": "Metadata File",
+            "location": "frontend\\public\\pdfs-data\\metadata.json",
+            "structure": {
+              "pdfs": {
+                "type": "array",
+                "item_type": "PDF Object (Summary View)",
+                "notes": "'posters' (full list) is excluded here to keep file size light. Includes 'posters_sample'."
+              },
+              "categories": {
+                "type": "array",
+                "item_type": "Category Object"
+              }
+            },
+            "example_data": {
+              "pdfs": [
+                {
+                  "path": "multi-per-page/01_Radha_Krishna.pdf",
+                  "name": "01_Radha_Krishna",
+                  "readable_name": "01 Radha Krishna",
+                  "category": "Radha Krishna",
+                  "total_posters": 25,
+                  "posters_sample": [
+                    {
+                      "__ref": "Poster Object"
+                    },
+                    {
+                      "__ref": "Poster Object"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "name": "Radha Krishna",
+                  "description": "Divine representations of love"
+                }
+              ]
+            }
+          },
+          {
+            "type": "PDF Detail File",
+            "location": "frontend\\public\\pdfs-data\\[pdf_name].json",
+            "structure": {
+              "root": "PDF Object (Detail View)",
+              "notes": "'posters_sample' is excluded here. Includes full 'posters' list."
+            },
+            "example_data": {
+              "path": "multi-per-page/01_Radha_Krishna.pdf",
+              "name": "01_Radha_Krishna",
+              "readable_name": "01 Radha Krishna",
+              "category": "Radha Krishna",
+              "total_posters": 25,
+              "posters": [
+                {
+                  "__ref": "Poster Object 1"
+                },
+                {
+                  "__ref": "Poster Object 2"
+                },
+                {
+                  "description": "... all 25 extracted posters"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "asset_directories": {
+        "directories": [
+          {
+            "type": "Image Storage",
+            "location": "frontend\\public\\poster-images",
+            "rules": {
+              "content": "Contains all generated JPEG images.",
+              "naming_convention": {
+                "rule": "Matches the 'image_file' field in the Poster Object.",
+                "example": "01_Radha_Krishna--i1--25284--a1b2c.jpg"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

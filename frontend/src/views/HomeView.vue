@@ -1,16 +1,16 @@
 <script setup>
 import { computed, onMounted } from 'vue';
-import { usePdfsMetadata } from '../composables/usePdfsMetadata';
+import { pdfStore } from '../stores';
 import PdfCard from '../components/PdfCard.vue';
 
-const { metadata, isLoading, error, fetchMetadata } = usePdfsMetadata();
+const { state, fetchMetadata } = pdfStore;
 
 onMounted(fetchMetadata);
 
 const groupedByCategory = computed(() => {
-  if (!metadata.value) return [];
+  if (!state.metadata) return [];
 
-  const { pdfs, categories } = metadata.value;
+  const { pdfs, categories } = state.metadata;
 
   return categories.map(cat => ({
     name: cat.name,
@@ -21,11 +21,7 @@ const groupedByCategory = computed(() => {
 </script>
 
 <template>
-  <section v-if="isLoading">Loading...</section>
-
-  <section v-else-if="error">Error: {{ error }}</section>
-
-  <section v-else v-for="category in groupedByCategory" :key="category.name">
+  <section v-for="category in groupedByCategory" :key="category.name">
     <h2>{{ category.name }}</h2>
     <p>{{ category.description }}</p>
 

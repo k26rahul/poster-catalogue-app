@@ -1,19 +1,21 @@
 <script setup>
 import { computed } from 'vue';
-import { useCart } from '@/composables/useCart';
+import { cartStore } from '@/stores/cart';
 
 const props = defineProps({
-  poster: { type: Object, required: true },
+  poster: {
+    type: Object,
+    required: true,
+  },
 });
 
-const { cart, addPoster, removePoster } = useCart();
+const { cart, addPoster, removePoster } = cartStore;
 
 const pdfName = computed(() => props.poster.pdf_name);
 
 const qty = computed(() => {
-  const postersMap = cart.value.get(pdfName.value);
-  const found = postersMap?.get(props.poster.code);
-  return found ? found.quantity : 0;
+  const postersInPdf = cart[pdfName.value] || [];
+  return postersInPdf.filter(p => p.posterId === props.poster.id).length;
 });
 
 const isActive = computed(() => qty.value >= 1);
@@ -26,7 +28,7 @@ const inc = e => {
 const dec = e => {
   e.stopPropagation();
   if (qty.value > 0) {
-    removePoster(pdfName.value, props.poster.code);
+    removePoster(pdfName.value, props.poster.id);
   }
 };
 </script>
@@ -98,7 +100,9 @@ const dec = e => {
   max-width: 0;
   opacity: 0;
   overflow: hidden;
-  transition: max-width 0.2s ease, opacity 0.15s ease;
+  transition:
+    max-width 0.2s ease,
+    opacity 0.15s ease;
 }
 
 .qty-left.visible {

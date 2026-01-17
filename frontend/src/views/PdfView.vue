@@ -1,23 +1,46 @@
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { usePdfData } from '@/composables/usePdfData';
+import { pdfStore } from '@/stores';
 import PosterCard from '@/components/PosterCard.vue';
 
-const { pdfData, isLoading, error, fetchPdf } = usePdfData();
+const { state, fetchPdf } = pdfStore;
+const pdfData = ref(null);
+const route = useRoute();
+
+async function loadPdfData(pdfName) {
+  const data = await fetchPdf(pdfName);
+  pdfData.value = data;
+}
 
 onMounted(() => {
-  const pdfName = useRoute().params.pdfName;
-  if (pdfName) fetchPdf(pdfName);
+  const pdfName = route.params.pdfName;
+  if (pdfName) {
+    // Check if data is already in the main store
+    if (state.pdfs[pdfName]) {
+      pdfData.value = state.pdfs[pdfName];
+    } else {
+      loadPdfData(pdfName);
+    }
+  }
 });
+
+watch(
+  () => route.params.pdfName,
+  newPdfName => {
+    if (newPdfName) {
+      if (state.pdfs[newPdfName]) {
+        pdfData.value = state.pdfs[newPdfName];
+      } else {
+        loadPdfData(newPdfName);
+      }
+    }
+  },
+);
 </script>
 
 <template>
-  <section v-if="isLoading">Loading...</section>
-
-  <section v-else-if="error">Error: {{ error }}</section>
-
-  <section v-else-if="pdfData">
+  <section v-if="pdfData">
     <h2>{{ pdfData.readable_name }}</h2>
     <p>{{ pdfData.total_posters }} posters</p>
 
