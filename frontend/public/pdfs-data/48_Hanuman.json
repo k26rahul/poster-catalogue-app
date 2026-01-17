@@ -1,128 +1,168 @@
 {
+  "path": "1-per-page/48_Hanuman.pdf",
   "name": "48_Hanuman",
   "readable_name": "48 Hanuman",
-  "path": "1-per-page/48_Hanuman.pdf",
   "category": "Hanuman",
   "total_posters": 20,
   "posters": [
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 1,
       "index": 1,
       "code": "H-9001",
+      "id": "48_Hanuman--i1--H-9001",
       "image_file": "48_Hanuman--i1--H-9001--a4751.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 2,
       "index": 2,
       "code": "H-9002",
+      "id": "48_Hanuman--i2--H-9002",
       "image_file": "48_Hanuman--i2--H-9002--36cf9.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 3,
       "index": 3,
       "code": "H-9003",
+      "id": "48_Hanuman--i3--H-9003",
       "image_file": "48_Hanuman--i3--H-9003--5adb6.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 4,
       "index": 4,
       "code": "H-9004",
+      "id": "48_Hanuman--i4--H-9004",
       "image_file": "48_Hanuman--i4--H-9004--b1533.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 5,
       "index": 5,
       "code": "H-9005",
+      "id": "48_Hanuman--i5--H-9005",
       "image_file": "48_Hanuman--i5--H-9005--24545.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 6,
       "index": 6,
       "code": "H-9006",
+      "id": "48_Hanuman--i6--H-9006",
       "image_file": "48_Hanuman--i6--H-9006--d0283.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 7,
       "index": 7,
       "code": "H-9007",
+      "id": "48_Hanuman--i7--H-9007",
       "image_file": "48_Hanuman--i7--H-9007--af826.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 8,
       "index": 8,
       "code": "H-9008",
+      "id": "48_Hanuman--i8--H-9008",
       "image_file": "48_Hanuman--i8--H-9008--b3715.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 9,
       "index": 9,
       "code": "H-9009",
+      "id": "48_Hanuman--i9--H-9009",
       "image_file": "48_Hanuman--i9--H-9009--047ff.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 10,
       "index": 10,
       "code": "H-9010",
+      "id": "48_Hanuman--i10--H-9010",
       "image_file": "48_Hanuman--i10--H-9010--e8494.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 11,
       "index": 11,
       "code": "H-9011",
+      "id": "48_Hanuman--i11--H-9011",
       "image_file": "48_Hanuman--i11--H-9011--8dfba.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 12,
       "index": 12,
       "code": "H-9012",
+      "id": "48_Hanuman--i12--H-9012",
       "image_file": "48_Hanuman--i12--H-9012--3ab76.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 13,
       "index": 13,
       "code": "H-9013",
+      "id": "48_Hanuman--i13--H-9013",
       "image_file": "48_Hanuman--i13--H-9013--09a74.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 14,
       "index": 14,
       "code": "H-9014",
+      "id": "48_Hanuman--i14--H-9014",
       "image_file": "48_Hanuman--i14--H-9014--39b14.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 15,
       "index": 15,
       "code": "H-9015",
+      "id": "48_Hanuman--i15--H-9015",
       "image_file": "48_Hanuman--i15--H-9015--64b23.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 16,
       "index": 16,
       "code": "H-9016",
+      "id": "48_Hanuman--i16--H-9016",
       "image_file": "48_Hanuman--i16--H-9016--8db19.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 17,
       "index": 17,
       "code": "H-9017",
+      "id": "48_Hanuman--i17--H-9017",
       "image_file": "48_Hanuman--i17--H-9017--d72cb.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 18,
       "index": 18,
       "code": "H-9018",
+      "id": "48_Hanuman--i18--H-9018",
       "image_file": "48_Hanuman--i18--H-9018--119f5.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 19,
       "index": 19,
       "code": "H-9019",
+      "id": "48_Hanuman--i19--H-9019",
       "image_file": "48_Hanuman--i19--H-9019--a2ce7.jpg"
     },
     {
       "pdf_name": "48_Hanuman",
+      "page_no": 20,
       "index": 20,
       "code": "H-9020",
+      "id": "48_Hanuman--i20--H-9020",
       "image_file": "48_Hanuman--i20--H-9020--cef9b.jpg"
     }
   ]
