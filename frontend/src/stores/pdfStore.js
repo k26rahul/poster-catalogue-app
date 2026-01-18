@@ -11,15 +11,13 @@ async function fetchMetadata() {
 
   const metadata = await http.get('/pdfs-data/metadata.json');
 
-  metadata.pdfs.forEach(pdf => {
-    pdfs.set(pdf.name, pdf);
+  metadata.categories.forEach(cat => {
+    categories.set(cat.name, { ...cat, pdfs: [] });
   });
 
-  metadata.categories.forEach(cat => {
-    const pdfNames = metadata.pdfs
-      .filter(pdf => pdf.category === cat.name)
-      .map(pdf => pdf.name);
-    categories.set(cat.name, { ...cat, pdfs: pdfNames });
+  metadata.pdfs.forEach(pdf => {
+    pdfs.set(pdf.name, pdf);
+    categories.get(pdf.category).pdfs.push(pdf.name);
   });
 }
 
