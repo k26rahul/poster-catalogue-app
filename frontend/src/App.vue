@@ -20,6 +20,10 @@ import GlobalErrorBar from './components/GlobalErrorBar.vue';
 
 <style>
 main {
-  padding-bottom: 64px; /* space for bottom nav */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  padding-bottom: calc(1rem + 4rem); /* 4rem space for bottom nav */
 }
 </style>

@@ -52,7 +52,6 @@ onMounted(fetchMetadata);
 
 <style scoped>
 .controls {
-  padding: 1rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -63,7 +62,6 @@ button {
 }
 
 .categories-list {
-  padding: 0 1rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;

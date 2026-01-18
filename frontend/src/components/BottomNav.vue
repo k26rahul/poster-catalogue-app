@@ -33,7 +33,7 @@ nav {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 64px;
+  height: 4rem;
   display: flex;
   align-items: center;
   border-top: 1px solid var(--nav-border);
@@ -41,12 +41,12 @@ nav {
 }
 
 .nav-item {
-  flex: 1 1 0;
+  height: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
   font-size: 12px;
   text-decoration: none;
   color: var(--nav-text);

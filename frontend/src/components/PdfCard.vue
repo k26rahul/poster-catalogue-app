@@ -66,7 +66,7 @@ const goToPdf = () => {
 <style scoped>
 .pdf-card {
   width: 300px;
-  padding: 10px;
+  padding: 0.5rem;
 
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ const goToPdf = () => {
   gap: 0.25rem;
 
   border: 1px solid var(--card-border);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   text-align: center;
   cursor: pointer;
@@ -95,7 +95,7 @@ const goToPdf = () => {
 .pdf-card img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   object-fit: contain;
   background: var(--card-image-bg);
 }
