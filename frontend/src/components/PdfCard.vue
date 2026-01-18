@@ -116,7 +116,7 @@ const onDotClick = i => {
 
 .pdf-card img {
   width: 100%;
-  height: 240px;
+  height: auto;
   border-radius: 6px;
   object-fit: contain;
   background: var(--card-image-bg);

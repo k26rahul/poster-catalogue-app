@@ -37,6 +37,7 @@ function addPoster(pdfName, posterId) {
 function removePoster(pdfName, posterId) {
   const postersInPdf = cart.get(pdfName);
   const poster = postersInPdf.get(posterId);
+
   poster.qty--;
 
   if (poster.qty <= 0) {
