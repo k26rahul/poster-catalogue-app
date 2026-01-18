@@ -2964,23 +2964,11 @@
   "postersSample": [
     {
       "pdfName": "04_Ganesh",
-      "pageNo": 23,
-      "index": 127,
-      "code": "7301",
-      "id": "04_Ganesh--i127--7301",
-      "imageFile": "04_Ganesh--i127--7301--99958.jpg",
-      "imageSize": [
-        301,
-        200
-      ]
-    },
-    {
-      "pdfName": "04_Ganesh",
-      "pageNo": 9,
-      "index": 47,
-      "code": "7491",
-      "id": "04_Ganesh--i47--7491",
-      "imageFile": "04_Ganesh--i47--7491--c2b48.jpg",
+      "pageNo": 3,
+      "index": 8,
+      "code": "7524",
+      "id": "04_Ganesh--i8--7524",
+      "imageFile": "04_Ganesh--i8--7524--01240.jpg",
       "imageSize": [
         301,
         200
@@ -2989,10 +2977,10 @@
     {
       "pdfName": "04_Ganesh",
       "pageNo": 20,
-      "index": 112,
-      "code": "7400",
-      "id": "04_Ganesh--i112--7400",
-      "imageFile": "04_Ganesh--i112--7400--03b92.jpg",
+      "index": 110,
+      "code": "7394",
+      "id": "04_Ganesh--i110--7394",
+      "imageFile": "04_Ganesh--i110--7394--85fcd.jpg",
       "imageSize": [
         301,
         200
@@ -3000,11 +2988,11 @@
     },
     {
       "pdfName": "04_Ganesh",
-      "pageNo": 15,
-      "index": 83,
-      "code": "7445",
-      "id": "04_Ganesh--i83--7445",
-      "imageFile": "04_Ganesh--i83--7445--ea40c.jpg",
+      "pageNo": 27,
+      "index": 156,
+      "code": "7375",
+      "id": "04_Ganesh--i156--7375",
+      "imageFile": "04_Ganesh--i156--7375--a1ec5.jpg",
       "imageSize": [
         301,
         200
@@ -3012,11 +3000,23 @@
     },
     {
       "pdfName": "04_Ganesh",
-      "pageNo": 9,
-      "index": 44,
-      "code": "7488",
-      "id": "04_Ganesh--i44--7488",
-      "imageFile": "04_Ganesh--i44--7488--f8b63.jpg",
+      "pageNo": 26,
+      "index": 150,
+      "code": "7365",
+      "id": "04_Ganesh--i150--7365",
+      "imageFile": "04_Ganesh--i150--7365--5ce94.jpg",
+      "imageSize": [
+        301,
+        200
+      ]
+    },
+    {
+      "pdfName": "04_Ganesh",
+      "pageNo": 16,
+      "index": 90,
+      "code": "7440",
+      "id": "04_Ganesh--i90--7440",
+      "imageFile": "04_Ganesh--i90--7440--ec345.jpg",
       "imageSize": [
         301,
         200

@@ -408,11 +408,47 @@
   "postersSample": [
     {
       "pdfName": "75_Khatu_Shyam",
-      "pageNo": 26,
-      "index": 26,
-      "code": "KHS_026",
-      "id": "75_Khatu_Shyam--i26--KHS_026",
-      "imageFile": "75_Khatu_Shyam--i26--KHS_026--996b9.jpg",
+      "pageNo": 24,
+      "index": 24,
+      "code": "KHS_024",
+      "id": "75_Khatu_Shyam--i24--KHS_024",
+      "imageFile": "75_Khatu_Shyam--i24--KHS_024--92f42.jpg",
+      "imageSize": [
+        587,
+        391
+      ]
+    },
+    {
+      "pdfName": "75_Khatu_Shyam",
+      "pageNo": 29,
+      "index": 29,
+      "code": "KHS_029",
+      "id": "75_Khatu_Shyam--i29--KHS_029",
+      "imageFile": "75_Khatu_Shyam--i29--KHS_029--0ceb3.jpg",
+      "imageSize": [
+        587,
+        391
+      ]
+    },
+    {
+      "pdfName": "75_Khatu_Shyam",
+      "pageNo": 30,
+      "index": 30,
+      "code": "KHS_030",
+      "id": "75_Khatu_Shyam--i30--KHS_030",
+      "imageFile": "75_Khatu_Shyam--i30--KHS_030--7fb61.jpg",
+      "imageSize": [
+        587,
+        391
+      ]
+    },
+    {
+      "pdfName": "75_Khatu_Shyam",
+      "pageNo": 33,
+      "index": 33,
+      "code": "KHS_033",
+      "id": "75_Khatu_Shyam--i33--KHS_033",
+      "imageFile": "75_Khatu_Shyam--i33--KHS_033--3ef3c.jpg",
       "imageSize": [
         587,
         391
@@ -425,42 +461,6 @@
       "code": "KHS_028",
       "id": "75_Khatu_Shyam--i28--KHS_028",
       "imageFile": "75_Khatu_Shyam--i28--KHS_028--b466b.jpg",
-      "imageSize": [
-        587,
-        391
-      ]
-    },
-    {
-      "pdfName": "75_Khatu_Shyam",
-      "pageNo": 32,
-      "index": 32,
-      "code": "KHS_032",
-      "id": "75_Khatu_Shyam--i32--KHS_032",
-      "imageFile": "75_Khatu_Shyam--i32--KHS_032--b637b.jpg",
-      "imageSize": [
-        587,
-        391
-      ]
-    },
-    {
-      "pdfName": "75_Khatu_Shyam",
-      "pageNo": 10,
-      "index": 10,
-      "code": "KHS_010",
-      "id": "75_Khatu_Shyam--i10--KHS_010",
-      "imageFile": "75_Khatu_Shyam--i10--KHS_010--4988f.jpg",
-      "imageSize": [
-        587,
-        391
-      ]
-    },
-    {
-      "pdfName": "75_Khatu_Shyam",
-      "pageNo": 25,
-      "index": 25,
-      "code": "KHS_025",
-      "id": "75_Khatu_Shyam--i25--KHS_025",
-      "imageFile": "75_Khatu_Shyam--i25--KHS_025--a4683.jpg",
       "imageSize": [
         587,
         391

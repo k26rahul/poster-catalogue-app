@@ -312,26 +312,14 @@
     },
     {
       "pdfName": "45_Tirupati_Balaji",
-      "pageNo": 23,
-      "index": 23,
-      "code": "10020",
-      "id": "45_Tirupati_Balaji--i23--10020",
-      "imageFile": "45_Tirupati_Balaji--i23--10020--fd5f7.jpg",
+      "pageNo": 7,
+      "index": 7,
+      "code": "10007",
+      "id": "45_Tirupati_Balaji--i7--10007",
+      "imageFile": "45_Tirupati_Balaji--i7--10007--9a5a6.jpg",
       "imageSize": [
         354,
         531
-      ]
-    },
-    {
-      "pdfName": "45_Tirupati_Balaji",
-      "pageNo": 17,
-      "index": 17,
-      "code": "10017",
-      "id": "45_Tirupati_Balaji--i17--10017",
-      "imageFile": "45_Tirupati_Balaji--i17--10017--1abf3.jpg",
-      "imageSize": [
-        354,
-        472
       ]
     },
     {
@@ -348,14 +336,26 @@
     },
     {
       "pdfName": "45_Tirupati_Balaji",
-      "pageNo": 21,
-      "index": 21,
-      "code": "10019",
-      "id": "45_Tirupati_Balaji--i21--10019",
-      "imageFile": "45_Tirupati_Balaji--i21--10019--05cd3.jpg",
+      "pageNo": 14,
+      "index": 14,
+      "code": "10014",
+      "id": "45_Tirupati_Balaji--i14--10014",
+      "imageFile": "45_Tirupati_Balaji--i14--10014--8b438.jpg",
       "imageSize": [
-        300,
-        600
+        354,
+        472
+      ]
+    },
+    {
+      "pdfName": "45_Tirupati_Balaji",
+      "pageNo": 8,
+      "index": 8,
+      "code": "10008",
+      "id": "45_Tirupati_Balaji--i8--10008",
+      "imageFile": "45_Tirupati_Balaji--i8--10008--aad6d.jpg",
+      "imageSize": [
+        354,
+        531
       ]
     }
   ]

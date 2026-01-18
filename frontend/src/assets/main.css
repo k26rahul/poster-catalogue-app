@@ -31,5 +31,39 @@
 }
 
 body {
-  font-family: sans-serif;
+  color: var(--text-primary);
+  font-family: system-ui, sans-serif;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+summary {
+  background: #eee;
+  padding: 0.75rem;
+  cursor: pointer;
+  list-style: none; /* hide default triangle */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: '+';
+  font-weight: bold;
+}
+
+details[open] summary:after {
+  content: '-';
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
 }

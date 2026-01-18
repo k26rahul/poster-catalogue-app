@@ -576,11 +576,35 @@
   "postersSample": [
     {
       "pdfName": "49_LGS",
-      "pageNo": 19,
-      "index": 19,
-      "code": "LGS-1019",
-      "id": "49_LGS--i19--LGS-1019",
-      "imageFile": "49_LGS--i19--LGS-1019--4f8e5.jpg",
+      "pageNo": 1,
+      "index": 1,
+      "code": "LGS-1001",
+      "id": "49_LGS--i1--LGS-1001",
+      "imageFile": "49_LGS--i1--LGS-1001--96023.jpg",
+      "imageSize": [
+        900,
+        600
+      ]
+    },
+    {
+      "pdfName": "49_LGS",
+      "pageNo": 18,
+      "index": 18,
+      "code": "LGS-1018",
+      "id": "49_LGS--i18--LGS-1018",
+      "imageFile": "49_LGS--i18--LGS-1018--e4be5.jpg",
+      "imageSize": [
+        900,
+        600
+      ]
+    },
+    {
+      "pdfName": "49_LGS",
+      "pageNo": 16,
+      "index": 16,
+      "code": "LGS-1016",
+      "id": "49_LGS--i16--LGS-1016",
+      "imageFile": "49_LGS--i16--LGS-1016--370a5.jpg",
       "imageSize": [
         900,
         600
@@ -600,35 +624,11 @@
     },
     {
       "pdfName": "49_LGS",
-      "pageNo": 33,
-      "index": 33,
-      "code": "LGS-1033",
-      "id": "49_LGS--i33--LGS-1033",
-      "imageFile": "49_LGS--i33--LGS-1033--aa462.jpg",
-      "imageSize": [
-        900,
-        600
-      ]
-    },
-    {
-      "pdfName": "49_LGS",
-      "pageNo": 1,
-      "index": 1,
-      "code": "LGS-1001",
-      "id": "49_LGS--i1--LGS-1001",
-      "imageFile": "49_LGS--i1--LGS-1001--96023.jpg",
-      "imageSize": [
-        900,
-        600
-      ]
-    },
-    {
-      "pdfName": "49_LGS",
-      "pageNo": 2,
-      "index": 2,
-      "code": "LGS-1002",
-      "id": "49_LGS--i2--LGS-1002",
-      "imageFile": "49_LGS--i2--LGS-1002--a88ba.jpg",
+      "pageNo": 11,
+      "index": 11,
+      "code": "LGS-1011",
+      "id": "49_LGS--i11--LGS-1011",
+      "imageFile": "49_LGS--i11--LGS-1011--fa723.jpg",
       "imageSize": [
         900,
         600

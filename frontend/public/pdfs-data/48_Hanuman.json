@@ -252,11 +252,11 @@
   "postersSample": [
     {
       "pdfName": "48_Hanuman",
-      "pageNo": 19,
-      "index": 19,
-      "code": "H-9019",
-      "id": "48_Hanuman--i19--H-9019",
-      "imageFile": "48_Hanuman--i19--H-9019--a2ce7.jpg",
+      "pageNo": 3,
+      "index": 3,
+      "code": "H-9003",
+      "id": "48_Hanuman--i3--H-9003",
+      "imageFile": "48_Hanuman--i3--H-9003--5adb6.jpg",
       "imageSize": [
         354,
         531
@@ -264,11 +264,11 @@
     },
     {
       "pdfName": "48_Hanuman",
-      "pageNo": 4,
-      "index": 4,
-      "code": "H-9004",
-      "id": "48_Hanuman--i4--H-9004",
-      "imageFile": "48_Hanuman--i4--H-9004--b1533.jpg",
+      "pageNo": 5,
+      "index": 5,
+      "code": "H-9005",
+      "id": "48_Hanuman--i5--H-9005",
+      "imageFile": "48_Hanuman--i5--H-9005--24545.jpg",
       "imageSize": [
         354,
         531
@@ -300,14 +300,14 @@
     },
     {
       "pdfName": "48_Hanuman",
-      "pageNo": 11,
-      "index": 11,
-      "code": "H-9011",
-      "id": "48_Hanuman--i11--H-9011",
-      "imageFile": "48_Hanuman--i11--H-9011--8dfba.jpg",
+      "pageNo": 18,
+      "index": 18,
+      "code": "H-9018",
+      "id": "48_Hanuman--i18--H-9018",
+      "imageFile": "48_Hanuman--i18--H-9018--119f5.jpg",
       "imageSize": [
         354,
-        472
+        508
       ]
     }
   ]

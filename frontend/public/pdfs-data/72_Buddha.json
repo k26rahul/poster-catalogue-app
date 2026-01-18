@@ -384,30 +384,6 @@
   "postersSample": [
     {
       "pdfName": "72_Buddha",
-      "pageNo": 1,
-      "index": 1,
-      "code": "B2296",
-      "id": "72_Buddha--i1--B2296",
-      "imageFile": "72_Buddha--i1--B2296--b583a.jpg",
-      "imageSize": [
-        587,
-        391
-      ]
-    },
-    {
-      "pdfName": "72_Buddha",
-      "pageNo": 22,
-      "index": 22,
-      "code": "B-2317",
-      "id": "72_Buddha--i22--B-2317",
-      "imageFile": "72_Buddha--i22--B-2317--7a670.jpg",
-      "imageSize": [
-        587,
-        391
-      ]
-    },
-    {
-      "pdfName": "72_Buddha",
       "pageNo": 23,
       "index": 23,
       "code": "B-2318",
@@ -420,11 +396,11 @@
     },
     {
       "pdfName": "72_Buddha",
-      "pageNo": 18,
-      "index": 18,
-      "code": "B-2313",
-      "id": "72_Buddha--i18--B-2313",
-      "imageFile": "72_Buddha--i18--B-2313--e0472.jpg",
+      "pageNo": 8,
+      "index": 8,
+      "code": "B-2303",
+      "id": "72_Buddha--i8--B-2303",
+      "imageFile": "72_Buddha--i8--B-2303--f9497.jpg",
       "imageSize": [
         587,
         391
@@ -432,11 +408,35 @@
     },
     {
       "pdfName": "72_Buddha",
-      "pageNo": 17,
-      "index": 17,
-      "code": "B-2312",
-      "id": "72_Buddha--i17--B-2312",
-      "imageFile": "72_Buddha--i17--B-2312--52f06.jpg",
+      "pageNo": 27,
+      "index": 27,
+      "code": "B-2322",
+      "id": "72_Buddha--i27--B-2322",
+      "imageFile": "72_Buddha--i27--B-2322--3c36d.jpg",
+      "imageSize": [
+        587,
+        391
+      ]
+    },
+    {
+      "pdfName": "72_Buddha",
+      "pageNo": 24,
+      "index": 24,
+      "code": "B-2319",
+      "id": "72_Buddha--i24--B-2319",
+      "imageFile": "72_Buddha--i24--B-2319--9a574.jpg",
+      "imageSize": [
+        587,
+        391
+      ]
+    },
+    {
+      "pdfName": "72_Buddha",
+      "pageNo": 1,
+      "index": 1,
+      "code": "B2296",
+      "id": "72_Buddha--i1--B2296",
+      "imageFile": "72_Buddha--i1--B2296--b583a.jpg",
       "imageSize": [
         587,
         391

@@ -1056,11 +1056,11 @@
   "postersSample": [
     {
       "pdfName": "03_Mixed",
-      "pageNo": 7,
-      "index": 35,
-      "code": "27036",
-      "id": "03_Mixed--i35--27036",
-      "imageFile": "03_Mixed--i35--27036--b887a.jpg",
+      "pageNo": 16,
+      "index": 87,
+      "code": "27091",
+      "id": "03_Mixed--i87--27091",
+      "imageFile": "03_Mixed--i87--27091--2dee5.jpg",
       "imageSize": [
         301,
         200
@@ -1068,35 +1068,11 @@
     },
     {
       "pdfName": "03_Mixed",
-      "pageNo": 5,
-      "index": 19,
-      "code": "27019",
-      "id": "03_Mixed--i19--27019",
-      "imageFile": "03_Mixed--i19--27019--b512e.jpg",
-      "imageSize": [
-        301,
-        200
-      ]
-    },
-    {
-      "pdfName": "03_Mixed",
-      "pageNo": 12,
-      "index": 60,
-      "code": "27061",
-      "id": "03_Mixed--i60--27061",
-      "imageFile": "03_Mixed--i60--27061--c0ce7.jpg",
-      "imageSize": [
-        301,
-        200
-      ]
-    },
-    {
-      "pdfName": "03_Mixed",
-      "pageNo": 4,
-      "index": 18,
-      "code": "27018",
-      "id": "03_Mixed--i18--27018",
-      "imageFile": "03_Mixed--i18--27018--2ad01.jpg",
+      "pageNo": 15,
+      "index": 77,
+      "code": "27078",
+      "id": "03_Mixed--i77--27078",
+      "imageFile": "03_Mixed--i77--27078--28891.jpg",
       "imageSize": [
         301,
         200
@@ -1105,10 +1081,34 @@
     {
       "pdfName": "03_Mixed",
       "pageNo": 10,
-      "index": 53,
-      "code": "27054",
-      "id": "03_Mixed--i53--27054",
-      "imageFile": "03_Mixed--i53--27054--92075.jpg",
+      "index": 49,
+      "code": "27049",
+      "id": "03_Mixed--i49--27049",
+      "imageFile": "03_Mixed--i49--27049--ab390.jpg",
+      "imageSize": [
+        301,
+        200
+      ]
+    },
+    {
+      "pdfName": "03_Mixed",
+      "pageNo": 6,
+      "index": 29,
+      "code": "27029",
+      "id": "03_Mixed--i29--27029",
+      "imageFile": "03_Mixed--i29--27029--1c31f.jpg",
+      "imageSize": [
+        301,
+        200
+      ]
+    },
+    {
+      "pdfName": "03_Mixed",
+      "pageNo": 7,
+      "index": 34,
+      "code": "27035",
+      "id": "03_Mixed--i34--27035",
+      "imageFile": "03_Mixed--i34--27035--2dcc5.jpg",
       "imageSize": [
         301,
         200

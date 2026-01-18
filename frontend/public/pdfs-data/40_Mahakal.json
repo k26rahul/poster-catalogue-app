@@ -444,6 +444,18 @@
   "postersSample": [
     {
       "pdfName": "40_Mahakal",
+      "pageNo": 3,
+      "index": 3,
+      "code": "Mahakal003",
+      "id": "40_Mahakal--i3--Mahakal003",
+      "imageFile": "40_Mahakal--i3--Mahakal003--4bc9a.jpg",
+      "imageSize": [
+        376,
+        250
+      ]
+    },
+    {
+      "pdfName": "40_Mahakal",
       "pageNo": 20,
       "index": 20,
       "code": "Mahakal020",
@@ -456,11 +468,11 @@
     },
     {
       "pdfName": "40_Mahakal",
-      "pageNo": 12,
-      "index": 12,
-      "code": "Mahakal012",
-      "id": "40_Mahakal--i12--Mahakal012",
-      "imageFile": "40_Mahakal--i12--Mahakal012--5e17f.jpg",
+      "pageNo": 32,
+      "index": 32,
+      "code": "Mahakal032",
+      "id": "40_Mahakal--i32--Mahakal032",
+      "imageFile": "40_Mahakal--i32--Mahakal032--94cac.jpg",
       "imageSize": [
         376,
         250
@@ -468,11 +480,11 @@
     },
     {
       "pdfName": "40_Mahakal",
-      "pageNo": 5,
-      "index": 5,
-      "code": "Mahakal005",
-      "id": "40_Mahakal--i5--Mahakal005",
-      "imageFile": "40_Mahakal--i5--Mahakal005--cf109.jpg",
+      "pageNo": 7,
+      "index": 7,
+      "code": "Mahakal007",
+      "id": "40_Mahakal--i7--Mahakal007",
+      "imageFile": "40_Mahakal--i7--Mahakal007--0443a.jpg",
       "imageSize": [
         376,
         250
@@ -480,23 +492,11 @@
     },
     {
       "pdfName": "40_Mahakal",
-      "pageNo": 23,
-      "index": 23,
-      "code": "Mahakal023",
-      "id": "40_Mahakal--i23--Mahakal023",
-      "imageFile": "40_Mahakal--i23--Mahakal023--857e6.jpg",
-      "imageSize": [
-        376,
-        250
-      ]
-    },
-    {
-      "pdfName": "40_Mahakal",
-      "pageNo": 25,
-      "index": 25,
-      "code": "Mahakal025",
-      "id": "40_Mahakal--i25--Mahakal025",
-      "imageFile": "40_Mahakal--i25--Mahakal025--b39b5.jpg",
+      "pageNo": 14,
+      "index": 14,
+      "code": "Mahakal014",
+      "id": "40_Mahakal--i14--Mahakal014",
+      "imageFile": "40_Mahakal--i14--Mahakal014--3d586.jpg",
       "imageSize": [
         376,
         250

@@ -372,11 +372,11 @@
   "postersSample": [
     {
       "pdfName": "08_Ambedkar_Buddha",
-      "pageNo": 4,
-      "index": 14,
-      "code": "AB-3002",
-      "id": "08_Ambedkar_Buddha--i14--AB-3002",
-      "imageFile": "08_Ambedkar_Buddha--i14--AB-3002--5bc07.jpg",
+      "pageNo": 2,
+      "index": 6,
+      "code": "AB-3030",
+      "id": "08_Ambedkar_Buddha--i6--AB-3030",
+      "imageFile": "08_Ambedkar_Buddha--i6--AB-3030--9d920.jpg",
       "imageSize": [
         216,
         144
@@ -384,11 +384,23 @@
     },
     {
       "pdfName": "08_Ambedkar_Buddha",
-      "pageNo": 4,
-      "index": 15,
-      "code": "AB-3003",
-      "id": "08_Ambedkar_Buddha--i15--AB-3003",
-      "imageFile": "08_Ambedkar_Buddha--i15--AB-3003--2747f.jpg",
+      "pageNo": 3,
+      "index": 9,
+      "code": "AB-3019",
+      "id": "08_Ambedkar_Buddha--i9--AB-3019",
+      "imageFile": "08_Ambedkar_Buddha--i9--AB-3019--995b6.jpg",
+      "imageSize": [
+        216,
+        144
+      ]
+    },
+    {
+      "pdfName": "08_Ambedkar_Buddha",
+      "pageNo": 5,
+      "index": 19,
+      "code": "AB-3008",
+      "id": "08_Ambedkar_Buddha--i19--AB-3008",
+      "imageFile": "08_Ambedkar_Buddha--i19--AB-3008--5cf12.jpg",
       "imageSize": [
         216,
         144
@@ -408,23 +420,11 @@
     },
     {
       "pdfName": "08_Ambedkar_Buddha",
-      "pageNo": 4,
-      "index": 16,
-      "code": "AB-3004",
-      "id": "08_Ambedkar_Buddha--i16--AB-3004",
-      "imageFile": "08_Ambedkar_Buddha--i16--AB-3004--3729e.jpg",
-      "imageSize": [
-        216,
-        144
-      ]
-    },
-    {
-      "pdfName": "08_Ambedkar_Buddha",
-      "pageNo": 3,
-      "index": 9,
-      "code": "AB-3019",
-      "id": "08_Ambedkar_Buddha--i9--AB-3019",
-      "imageFile": "08_Ambedkar_Buddha--i9--AB-3019--995b6.jpg",
+      "pageNo": 5,
+      "index": 22,
+      "code": "AB-3013",
+      "id": "08_Ambedkar_Buddha--i22--AB-3013",
+      "imageFile": "08_Ambedkar_Buddha--i22--AB-3013--7d69a.jpg",
       "imageSize": [
         216,
         144

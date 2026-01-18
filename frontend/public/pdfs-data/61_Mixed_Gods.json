@@ -1092,50 +1092,14 @@
   "postersSample": [
     {
       "pdfName": "61_Mixed_Gods",
-      "pageNo": 35,
-      "index": 35,
-      "code": "MIG035",
-      "id": "61_Mixed_Gods--i35--MIG035",
-      "imageFile": "61_Mixed_Gods--i35--MIG035--9069a.jpg",
+      "pageNo": 49,
+      "index": 49,
+      "code": "MIG049",
+      "id": "61_Mixed_Gods--i49--MIG049",
+      "imageFile": "61_Mixed_Gods--i49--MIG049--d1d2d.jpg",
       "imageSize": [
         704,
         469
-      ]
-    },
-    {
-      "pdfName": "61_Mixed_Gods",
-      "pageNo": 45,
-      "index": 45,
-      "code": "MIG045",
-      "id": "61_Mixed_Gods--i45--MIG045",
-      "imageFile": "61_Mixed_Gods--i45--MIG045--07924.jpg",
-      "imageSize": [
-        704,
-        469
-      ]
-    },
-    {
-      "pdfName": "61_Mixed_Gods",
-      "pageNo": 57,
-      "index": 57,
-      "code": "MIG057",
-      "id": "61_Mixed_Gods--i57--MIG057",
-      "imageFile": "61_Mixed_Gods--i57--MIG057--7d256.jpg",
-      "imageSize": [
-        704,
-        469
-      ]
-    },
-    {
-      "pdfName": "61_Mixed_Gods",
-      "pageNo": 58,
-      "index": 58,
-      "code": "MIG058",
-      "id": "61_Mixed_Gods--i58--MIG058",
-      "imageFile": "61_Mixed_Gods--i58--MIG058--f171a.jpg",
-      "imageSize": [
-        704,
-        352
       ]
     },
     {
@@ -1148,6 +1112,42 @@
       "imageSize": [
         704,
         469
+      ]
+    },
+    {
+      "pdfName": "61_Mixed_Gods",
+      "pageNo": 77,
+      "index": 77,
+      "code": "MIG077",
+      "id": "61_Mixed_Gods--i77--MIG077",
+      "imageFile": "61_Mixed_Gods--i77--MIG077--3707f.jpg",
+      "imageSize": [
+        704,
+        469
+      ]
+    },
+    {
+      "pdfName": "61_Mixed_Gods",
+      "pageNo": 34,
+      "index": 34,
+      "code": "MIG034",
+      "id": "61_Mixed_Gods--i34--MIG034",
+      "imageFile": "61_Mixed_Gods--i34--MIG034--605b0.jpg",
+      "imageSize": [
+        704,
+        469
+      ]
+    },
+    {
+      "pdfName": "61_Mixed_Gods",
+      "pageNo": 7,
+      "index": 7,
+      "code": "MIG007",
+      "id": "61_Mixed_Gods--i7--MIG007",
+      "imageFile": "61_Mixed_Gods--i7--MIG007--8584e.jpg",
+      "imageSize": [
+        460,
+        460
       ]
     }
   ]

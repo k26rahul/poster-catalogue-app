@@ -444,11 +444,23 @@
   "postersSample": [
     {
       "pdfName": "09_Ambedkar",
-      "pageNo": 3,
-      "index": 8,
-      "code": "AMB-031",
-      "id": "09_Ambedkar--i8--AMB-031",
-      "imageFile": "09_Ambedkar--i8--AMB-031--58750.jpg",
+      "pageNo": 2,
+      "index": 3,
+      "code": "AMB-005",
+      "id": "09_Ambedkar--i3--AMB-005",
+      "imageFile": "09_Ambedkar--i3--AMB-005--2a59a.jpg",
+      "imageSize": [
+        216,
+        144
+      ]
+    },
+    {
+      "pdfName": "09_Ambedkar",
+      "pageNo": 2,
+      "index": 5,
+      "code": "AMB-028",
+      "id": "09_Ambedkar--i5--AMB-028",
+      "imageFile": "09_Ambedkar--i5--AMB-028--f93e2.jpg",
       "imageSize": [
         216,
         144
@@ -468,35 +480,23 @@
     },
     {
       "pdfName": "09_Ambedkar",
-      "pageNo": 3,
-      "index": 9,
-      "code": "AMB-032",
-      "id": "09_Ambedkar--i9--AMB-032",
-      "imageFile": "09_Ambedkar--i9--AMB-032--fc134.jpg",
-      "imageSize": [
-        216,
-        144
-      ]
-    },
-    {
-      "pdfName": "09_Ambedkar",
-      "pageNo": 3,
-      "index": 10,
-      "code": "AMB-033",
-      "id": "09_Ambedkar--i10--AMB-033",
-      "imageFile": "09_Ambedkar--i10--AMB-033--89b93.jpg",
-      "imageSize": [
-        216,
-        144
-      ]
-    },
-    {
-      "pdfName": "09_Ambedkar",
       "pageNo": 4,
-      "index": 17,
-      "code": "AMB-024",
-      "id": "09_Ambedkar--i17--AMB-024",
-      "imageFile": "09_Ambedkar--i17--AMB-024--ed4cf.jpg",
+      "index": 15,
+      "code": "AMB-017",
+      "id": "09_Ambedkar--i15--AMB-017",
+      "imageFile": "09_Ambedkar--i15--AMB-017--c522e.jpg",
+      "imageSize": [
+        216,
+        144
+      ]
+    },
+    {
+      "pdfName": "09_Ambedkar",
+      "pageNo": 3,
+      "index": 11,
+      "code": "AMB-034",
+      "id": "09_Ambedkar--i11--AMB-034",
+      "imageFile": "09_Ambedkar--i11--AMB-034--2f4d9.jpg",
       "imageSize": [
         216,
         144
