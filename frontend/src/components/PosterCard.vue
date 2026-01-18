@@ -11,7 +11,7 @@ const props = defineProps({
 
 const { cart, addPoster, removePoster } = cartStore;
 
-const pdfName = computed(() => props.poster.pdf_name);
+const pdfName = computed(() => props.poster.pdfName);
 
 const qty = computed(() => {
   return cart.get(pdfName.value)?.get(props.poster.id)?.qty || 0;
@@ -34,7 +34,7 @@ const dec = e => {
 
 <template>
   <div class="poster-card">
-    <img :src="`/poster-images/${poster.image_file}`" :alt="poster.id" />
+    <img :src="`/poster-images/${poster.imageFile}`" :alt="poster.id" />
 
     <div class="qty-overlay" :class="{ active: isActive }">
       <div class="qty-left" :class="{ visible: isActive }">

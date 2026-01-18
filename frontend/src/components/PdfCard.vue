@@ -12,7 +12,7 @@ const props = defineProps({
 const router = useRouter();
 const current = ref(0);
 
-const posters = props.pdf.posters_sample;
+const posters = props.pdf.postersSample;
 const currentPoster = computed(() => posters[current.value]);
 
 let intervalId;
@@ -67,15 +67,16 @@ const onDotClick = i => {
 <template>
   <div
     class="pdf-card"
+    :class="{ landscape: pdf.usedLandscapeForSample }"
     @click="goToPdf"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
     <img
-      :src="`/poster-images/${currentPoster.image_file}`"
+      :src="`/poster-images/${currentPoster.imageFile}`"
       :alt="currentPoster.id"
-      :width="currentPoster.image_size[0]"
-      :height="currentPoster.image_size[1]"
+      :width="currentPoster.imageSize[0]"
+      :height="currentPoster.imageSize[1]"
     />
 
     <div class="dots">
@@ -87,8 +88,8 @@ const onDotClick = i => {
       />
     </div>
 
-    <h3>{{ pdf.readable_name }}</h3>
-    <p>{{ pdf.total_posters }} posters</p>
+    <h3>{{ pdf.readableName }}</h3>
+    <p>{{ pdf.totalPosters }} posters</p>
   </div>
 </template>
 
@@ -97,6 +98,7 @@ const onDotClick = i => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 10px;
   border: 1px solid var(--card-border);
   border-radius: 8px;
@@ -107,11 +109,39 @@ const onDotClick = i => {
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
+  width: 100%;
 }
 
 .pdf-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--card-shadow-hover);
+}
+
+@media (min-width: 400px) {
+  .pdf-card {
+    width: 140px;
+  }
+  .pdf-card.landscape {
+    width: 210px;
+  }
+}
+
+@media (min-width: 550px) {
+  .pdf-card {
+    width: 200px;
+  }
+  .pdf-card.landscape {
+    width: 300px;
+  }
+}
+
+@media (min-width: 700px) {
+  .pdf-card {
+    width: 240px;
+  }
+  .pdf-card.landscape {
+    width: 360px;
+  }
 }
 
 .pdf-card img {

@@ -12,7 +12,7 @@ This object represents a specific extracted poster instance.
 - pageNo (integer): The specific page number in the original PDF document where this poster was found.
 - index (integer): A running counter indicating the order of extraction within that specific PDF (e.g., the 1st, 2nd, or 10th poster found in that file).
 - code (string): The extracted product code or text label found near the image.
-- id (string): A unique composite string identifying this specific poster instance. Format: [pdf_name]--i[index]--[code].
+- id (string): A unique composite string identifying this specific poster instance. Format: [pdfName]--i[index]--[code].
 - imageFile (string): The filename of the generated JPEG image saved to the disk. It consists of the id plus a hash of the image bytes for uniqueness (e.g., ...--a1b2c.jpg).
 - imageSize (array of 2 integers): Resolution of the image. Contains width and height integers.
 
@@ -53,7 +53,7 @@ The application utilizes two primary file structures for metadata and detail vie
 ### PDF Detail File
 
 - Type: PDF Detail File.
-- Location: frontend\public\pdfs-data[pdf_name].json.
+- Location: frontend\public\pdfs-data[pdfName].json.
 - Structure:
 - The root is a PDF Object (Detail View).
 - Both the full posters list and postersSample are populated.

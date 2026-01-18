@@ -69,8 +69,8 @@ onMounted(() => {
 
 <template>
   <section v-if="pdfData">
-    <h2>{{ pdfData.readable_name }}</h2>
-    <p>{{ pdfData.total_posters }} posters</p>
+    <h2>{{ pdfData.readableName }}</h2>
+    <p>{{ pdfData.totalPosters }} posters</p>
 
     <div class="sort-options">
       <label>

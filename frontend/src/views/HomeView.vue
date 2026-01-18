@@ -13,7 +13,7 @@ onMounted(fetchMetadata);
     <h2>{{ category.name }}</h2>
     <p>{{ category.description }}</p>
 
-    <div class="pdf-grid">
+    <div class="pdf-container">
       <PdfCard v-for="pdfName in category.pdfs" :key="pdfName" :pdf="pdfs.get(pdfName)" />
     </div>
   </section>
@@ -24,9 +24,9 @@ section {
   padding: 16px;
 }
 
-.pdf-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+.pdf-container {
+  display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
