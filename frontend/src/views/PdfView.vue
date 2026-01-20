@@ -50,9 +50,11 @@ onUpdated(() => {
 
 <template>
   <section v-if="pdfData">
-    <h2>{{ pdfData.readableName }}</h2>
+    <div>
+      <h2>{{ pdfData.readableName }}</h2>
 
-    <p>{{ pdfData.totalPosters }} posters</p>
+      <p>{{ pdfData.totalPosters }} posters</p>
+    </div>
 
     <div class="controls">
       <label>
@@ -78,11 +80,16 @@ onUpdated(() => {
 section {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
 }
 
 .controls {
   display: flex;
+  justify-content: end;
   align-items: center;
   gap: 1rem;
   font-size: 0.875rem;

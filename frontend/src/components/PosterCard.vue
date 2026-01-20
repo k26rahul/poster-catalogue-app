@@ -82,13 +82,13 @@ const dec = e => {
   border-radius: 1rem;
   overflow: hidden;
   color: var(--accent);
-  background-color: #fff;
+  background-color: var(--overlay-bg);
   box-shadow: var(--overlay-shadow);
   transition: box-shadow 0.15s ease;
 }
 
 .qty-overlay.active {
-  color: #fff;
+  color: var(--text-inverse);
   background: var(--accent);
   box-shadow: var(--overlay-shadow-active);
 }
@@ -113,7 +113,7 @@ const dec = e => {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 12px;
-  color: #fff;
+  color: var(--text-inverse);
   font-size: 1.5rem;
   background: transparent;
   cursor: pointer;
@@ -126,7 +126,7 @@ const dec = e => {
 }
 
 .qty-overlay:not(.active) .qty-plus {
-  background: #fff;
+  background: var(--overlay-bg);
   color: var(--accent);
 }
 

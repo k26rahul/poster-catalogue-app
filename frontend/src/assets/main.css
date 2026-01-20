@@ -2,14 +2,15 @@
   --text-primary: #333;
   --text-secondary: #555;
   --text-muted: #666;
+  --text-inverse: #fff;
 
   --accent: #2563eb;
 
   --nav-border: #ddd;
   --nav-bg: #fff;
 
-  --card-bg: #f4f4f4;
   --card-border: #e6e6e6;
+  --card-bg: #f4f4f4;
 
   --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   --card-shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.12);
@@ -19,6 +20,7 @@
 
   --overlay-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
   --overlay-shadow-active: 0 6px 16px rgba(0, 0, 0, 0.24);
+  --overlay-bg: #fff;
 
   --summary-bg: #eee;
 
