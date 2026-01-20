@@ -53,21 +53,24 @@ const dec = e => {
 
 <style scoped>
 .poster-card {
+  width: 20rem;
+  padding: 0.5rem;
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  justify-content: center;
+  gap: 0.5rem;
   border: 1px solid var(--card-border);
   border-radius: 8px;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
 }
 
-img {
+.poster-card img {
   width: 100%;
-  border-radius: 6px;
+  height: auto;
   object-fit: contain;
-  background: var(--card-image-bg);
+  border-radius: 4px;
 }
 
 .qty-overlay {
@@ -76,13 +79,16 @@ img {
   right: 10px;
   display: flex;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 1rem;
   overflow: hidden;
+  color: var(--accent);
+  background-color: #fff;
   box-shadow: var(--overlay-shadow);
   transition: box-shadow 0.15s ease;
 }
 
 .qty-overlay.active {
+  color: #fff;
   background: var(--accent);
   box-shadow: var(--overlay-shadow-active);
 }
@@ -103,43 +109,29 @@ img {
   opacity: 1;
 }
 
-.qty-left button {
-  padding: 8px 12px;
+.qty-overlay button {
+  padding: 0.5rem 1rem;
   border: none;
-  background: transparent;
-  font-size: 20px;
+  border-radius: 12px;
   color: #fff;
+  font-size: 1.5rem;
+  background: transparent;
   cursor: pointer;
 }
 
-.qty-left span {
-  min-width: 24px;
+.qty-overlay span {
+  min-width: 1.5rem;
   text-align: center;
   font-weight: 600;
-  color: #fff;
 }
 
-.qty-plus {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  border: 2px solid transparent;
-  background: white;
-  font-size: 26px;
+.qty-overlay:not(.active) .qty-plus {
+  background: #fff;
   color: var(--accent);
-  cursor: pointer;
-  flex-shrink: 0;
-}
-
-.qty-overlay.active .qty-plus {
-  background: transparent;
-  color: #fff;
 }
 
 .title {
-  margin-top: 6px;
-  font-size: 0.9rem;
-  color: var(--text-primary);
+  font-size: 0.875rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

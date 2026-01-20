@@ -7,12 +7,9 @@
 
   --nav-border: #ddd;
   --nav-bg: #fff;
-  --nav-text: var(--text-secondary);
-  --nav-active: var(--accent);
 
-  --card-bg: #fff;
+  --card-bg: #f4f4f4;
   --card-border: #e6e6e6;
-  --card-image-bg: #f4f4f4;
 
   --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   --card-shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.12);
@@ -20,8 +17,13 @@
   --dot-bg: #ccc;
   --dot-active: #333;
 
-  --overlay-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-  --overlay-shadow-active: 0 6px 16px rgba(0, 0, 0, 0.25);
+  --overlay-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
+  --overlay-shadow-active: 0 6px 16px rgba(0, 0, 0, 0.24);
+
+  --summary-bg: #eee;
+
+  --btn-border: #ccc;
+  --btn-bg: #f0f0f0;
 }
 
 * {
@@ -31,6 +33,8 @@
 }
 
 body {
+  max-width: 64rem;
+  margin: 0 auto;
   color: var(--text-primary);
   font-family: system-ui, sans-serif;
 }
@@ -39,16 +43,33 @@ p {
   color: var(--text-secondary);
 }
 
-summary {
-  background: #eee;
-  padding: 0.75rem;
+.controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--btn-border);
+  border-radius: 4px;
+  color: var(--text-primary);
   cursor: pointer;
-  list-style: none; /* hide default triangle */
+  background-color: var(--btn-bg);
+}
+
+.controls label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
+  padding: 0.75rem;
   border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none; /* hide default triangle */
+  background: var(--summary-bg);
 }
 
 summary::-webkit-details-marker {

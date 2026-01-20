@@ -1,6 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router';
-import { useCarousel } from '../composables/useCarousel';
+import { useCarousel } from '@/composables/useCarousel';
 
 const props = defineProps({
   pdf: {
@@ -59,27 +59,24 @@ const goToPdf = () => {
     </div>
 
     <strong>{{ pdf.readableName }}</strong>
+
     <p>{{ pdf.totalPosters }} posters</p>
   </div>
 </template>
 
 <style scoped>
 .pdf-card {
-  width: 300px;
+  width: 20rem;
   padding: 0.5rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-
   border: 1px solid var(--card-border);
-  border-radius: 0.5rem;
-
+  border-radius: 8px;
   text-align: center;
   cursor: pointer;
-
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
   transition:
@@ -95,9 +92,8 @@ const goToPdf = () => {
 .pdf-card img {
   width: 100%;
   height: auto;
-  border-radius: 0.25rem;
   object-fit: contain;
-  background: var(--card-image-bg);
+  border-radius: 4px;
 }
 
 .dots {

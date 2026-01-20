@@ -1,7 +1,7 @@
 <script setup>
-import { onMounted, ref, reactive } from 'vue';
-import { pdfStore } from '../stores';
-import PdfCard from '../components/PdfCard.vue';
+import { ref, reactive, onMounted, onUpdated } from 'vue';
+import { pdfStore } from '@/stores';
+import PdfCard from '@/components/PdfCard.vue';
 
 const { fetchMetadata, categories, pdfs } = pdfStore;
 
@@ -20,7 +20,14 @@ function onToggle(event, categoryName) {
   categoryStates[categoryName] = event.target.open;
 }
 
-onMounted(fetchMetadata);
+onMounted(() => {
+  console.log('HomeView mounted');
+  fetchMetadata();
+});
+
+onUpdated(() => {
+  console.log('HomeView updated');
+});
 </script>
 
 <template>
@@ -38,7 +45,9 @@ onMounted(fetchMetadata);
       @toggle="onToggle($event, category.name)"
     >
       <summary>{{ category.name }}</summary>
+
       <p>{{ category.description }}</p>
+
       <div class="pdf-cards-container">
         <PdfCard
           v-for="pdfName in category.pdfs"
@@ -56,11 +65,6 @@ onMounted(fetchMetadata);
   justify-content: flex-end;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
 .categories-list {
   display: flex;
   flex-direction: column;
@@ -68,14 +72,14 @@ button {
 }
 
 .pdf-cards-container {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 40rem) {
   .pdf-cards-container {
     justify-content: start;
   }

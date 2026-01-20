@@ -15,9 +15,9 @@ import { Icon } from '@iconify/vue';
       <span>Cart</span>
     </RouterLink>
 
-    <RouterLink to="/history" class="nav-item">
-      <Icon icon="mdi:history" />
-      <span>History</span>
+    <RouterLink to="/checkout" class="nav-item">
+      <Icon icon="mdi:credit-card-outline" />
+      <span>Checkout</span>
     </RouterLink>
 
     <RouterLink to="/settings" class="nav-item">
@@ -34,6 +34,8 @@ nav {
   left: 0;
   right: 0;
   height: 4rem;
+  max-width: 64rem;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   border-top: 1px solid var(--nav-border);
@@ -45,15 +47,15 @@ nav {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: 12px;
+  align-items: center;
+  font-size: 0.75rem;
   text-decoration: none;
-  color: var(--nav-text);
+  color: var(--text-secondary);
 }
 
 .nav-item :deep(svg) {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .nav-item span {
@@ -61,6 +63,6 @@ nav {
 }
 
 .router-link-active {
-  color: var(--nav-active);
+  color: var(--accent);
 }
 </style>
